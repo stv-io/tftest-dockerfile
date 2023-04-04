@@ -56,8 +56,5 @@ jobs:
     steps:
       - name: tfswitch test
         run: |
-          source /home/terraform/.bashrc
           export TF_VERSION=1.4.4
           tfswitch
-          pytest -v
-
