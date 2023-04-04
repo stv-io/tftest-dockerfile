@@ -58,4 +58,5 @@ jobs:
         run: |
           export TF_VERSION=1.4.4
           tfswitch
+          pytest -v
 
