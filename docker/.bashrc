@@ -1,0 +1,1 @@
+export PATH=$PATH:/home/terraform/bin:/home/terraform/.local/bin
